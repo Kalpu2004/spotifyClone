@@ -20,6 +20,9 @@ let songs = [
 
 //audioElement.play();
 
+
+// some changes
+
 //Listen to events
 masterPlay.addEventListener('click', ()=>{
     if(audioElement.paused || audioElement.currentTime<=0){
