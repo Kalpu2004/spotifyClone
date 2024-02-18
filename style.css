@@ -64,11 +64,14 @@ nav ul li{
     flex-direction: column;
     
     
+    
 }
+
 .icons{
     margin-top: 14px;
 
 }
+
 .icons{
     cursor: pointer;
 }
@@ -78,7 +81,7 @@ nav ul li{
     cursor: pointer;
 }
 .songItemcontainer{
-    margin: 40px;
+    margin: 60px;
 
 }
 .songItem{
@@ -86,9 +89,9 @@ nav ul li{
     display: flex;
     background-color: white;
     color: black;
-    width: 80%;
+    width: 90%;
     margin: 12px 0;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     border-radius: 34px;
 }
@@ -97,8 +100,9 @@ nav ul li{
     margin:0;
     border-radius: 34px;
 }
+
 .timestamp{
-    margin: 0 20px;
+    margin: 0 23px;
    
 }
 .timestamp i{
@@ -112,5 +116,5 @@ nav ul li{
 }
 .songinfo img{
     opacity: 0;
-    transition: opacity is ease-in;
+    transition: opacity 0.4 ease-in;
 }
